@@ -1,5 +1,5 @@
 import { FC, useMemo } from 'react'
-import bxIcons from '@bx-design/icons'
+import bxIcons from 'icons/bx-icons/src/index'
 import IconBase from './icon-base'
 import type { BxIconsProps } from 'types'
 

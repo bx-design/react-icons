@@ -1,4 +1,4 @@
-import type { IconList } from '@bx-design/icons'
+import type { IconList } from './icons/bx-icons/src/types'
 
 export type BxIconsProps = {
   icon: IconList

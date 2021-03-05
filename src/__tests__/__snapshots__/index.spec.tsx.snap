@@ -1,0 +1,38 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`BxIcons render BxIcons component 1`] = `
+<svg
+  data-testid="iconBase"
+  fill="none"
+  height="24"
+  viewBox="0 0 24 24"
+  width="24"
+  xmlns="http://www.w3.org/2000/svg"
+>
+  <path
+    clip-rule="inherit"
+    d="M13.524 4.949H4.301l2.42-2.404a.887.887 0 00-.03-1.295.998.998 0 00-1.35.028L1.269 5.31a.88.88 0 00.01 1.276L5.34 10.45a.999.999 0 001.36 0 .88.88 0 000-1.295L4.204 6.78h9.33c4.17 0 7.561 3.227 7.561 7.194 0 3.968-3.392 7.195-7.561 7.195h-3.402c-.534 0-.962.407-.962.915 0 .51.428.916.962.916h3.392C18.753 23 23 18.95 23 13.984c.01-4.985-4.247-9.035-9.476-9.035z"
+    fill="currentColor"
+    fill-rule="inherit"
+  />
+</svg>
+`;
+
+exports[`BxIcons render BxIcons with more props 1`] = `
+<svg
+  color="red"
+  data-testid="iconBase"
+  fill="none"
+  height="30"
+  viewBox="0 0 24 24"
+  width="30"
+  xmlns="http://www.w3.org/2000/svg"
+>
+  <path
+    clip-rule="inherit"
+    d="M13.524 4.949H4.301l2.42-2.404a.887.887 0 00-.03-1.295.998.998 0 00-1.35.028L1.269 5.31a.88.88 0 00.01 1.276L5.34 10.45a.999.999 0 001.36 0 .88.88 0 000-1.295L4.204 6.78h9.33c4.17 0 7.561 3.227 7.561 7.194 0 3.968-3.392 7.195-7.561 7.195h-3.402c-.534 0-.962.407-.962.915 0 .51.428.916.962.916h3.392C18.753 23 23 18.95 23 13.984c.01-4.985-4.247-9.035-9.476-9.035z"
+    fill="currentColor"
+    fill-rule="inherit"
+  />
+</svg>
+`;

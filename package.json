@@ -1,10 +1,16 @@
 {
   "name": "@bx-design/react-icons",
-  "version": "0.1.0",
-  "main": "index.js",
+  "version": "0.1.1",
   "repository": "git@github.com:bx-design/react-icons.git",
   "author": "BX Creative Studio",
   "license": "MIT",
+  "main": "./dist/index.js",
+  "module": "./esm/index.js",
+  "types": "./dist/index.d.ts",
+  "files": [
+    "dist/**",
+    "esm/**"
+  ],
   "scripts": {
     "build": "yarn build:esm && yarn build:cjs",
     "build:cjs": "rimraf ./dist && ncc build src/index.tsx -o dist",

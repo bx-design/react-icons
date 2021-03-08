@@ -2,7 +2,7 @@
   "compilerOptions": {
     "declaration": true,
     "esModuleInterop": true,
-    "module": "esnext",
+    "module": "commonjs",
     "moduleResolution": "node",
     "lib": ["ESNext", "dom", "dom.iterable"],
     "target": "es5",
@@ -29,7 +29,7 @@
   "include": [
     "src/**/*"
   ],
-  "exclude": ["node_modules", "src/__tests__"],
+  "exclude": ["node_modules", "src/__tests__", "src/icons/bx-icons/src/__tests__"],
   "watchOptions": {
     // Use native file system events for files and directories
     "watchFile": "useFsEvents",

@@ -1,12 +1,10 @@
-import { FC, useMemo } from 'react'
-import bxIcons from 'icons/bx-icons/src/index'
+import { FC } from 'react'
+import iconList from './icons/bx-icons/src/'
 import IconBase from './icon-base'
-import type { BxIconsProps } from 'types'
+import type { BxIconsProps } from './types'
 
 const BxIcons: FC<BxIconsProps> = ({ icon, size, color }) => {
-  const filteredIcon = useMemo(() => bxIcons.find((ico) => ico.name === icon), [
-    icon
-  ])
+  const filteredIcon = iconList.find((ico) => ico.name === icon)
 
   return (
     <IconBase size={size} color={color}>

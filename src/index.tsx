@@ -4,7 +4,7 @@ import IconBase from './icon-base'
 import type { BxIconsProps } from './types'
 
 const BxIcons: FC<BxIconsProps> = ({ icon, size, color }) => {
-  const filteredIcon = iconList.find((ico) => ico.name === icon)
+  const filteredIcon = iconList[icon]
 
   return (
     <IconBase size={size} color={color}>

@@ -1,3 +1,4 @@
 [submodule "src/icons/bx-icons"]
 	path = src/icons/bx-icons
 	url = https://github.com/bx-design/bx-icons.git
+	branch = main

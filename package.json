@@ -1,6 +1,6 @@
 {
   "name": "@bx-design/react-icons",
-  "version": "0.1.5",
+  "version": "0.1.6",
   "repository": "git@github.com:bx-design/react-icons.git",
   "author": "BX Creative Studio",
   "license": "MIT",
@@ -76,5 +76,9 @@
     "react-dom": {
       "optional": true
     }
+  },
+  "dependencies": {
+    "@types/classnames": "^2.2.11",
+    "classnames": "^2.2.6"
   }
 }

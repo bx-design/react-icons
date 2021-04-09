@@ -1,21 +1,16 @@
 import { render, screen } from '@testing-library/react'
 import BxIcons from '../'
-import type { BxIconsProps } from '../types'
-
-const customRender = (props: BxIconsProps) => {
-  return render(<BxIcons {...props} />)
-}
 
 describe('BxIcons', () => {
   test('render BxIcons component', () => {
-    customRender({ icon: 'back' })
+    render(<BxIcons icon='back' />)
     const component = screen.getByTestId('iconBase')
     expect(component).toBeInTheDocument()
     expect(component).toMatchSnapshot()
   })
 
   test('render BxIcons with more props', () => {
-    customRender({ icon: 'back', color: 'red', size: '30' })
+    render(<BxIcons icon='back' color='red' size='30' />)
     const component = screen.getByTestId('iconBase')
     expect(component).toBeInTheDocument()
     expect(component.getAttribute('width')).toBe('30')

@@ -63,6 +63,7 @@ function SomeComponent () {
 - dashboard-2
 - diamond
 - dots
+- dots-vertical
 - down
 - download
 - edit

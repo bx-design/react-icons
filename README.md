@@ -13,11 +13,11 @@ or
 import BxIcons from '@bx-design/react-icons';
 
 function SomeComponent () {
-	return (
-		<div>
-			<BxIcons icon='back' color='red' size='30' />
-		</div>
-	)
+  return (
+    <div>
+      <BxIcons icon='back' color='red' size='30' />
+    </div>
+  )
 }
 ```
 
@@ -31,33 +31,53 @@ function SomeComponent () {
 
 ### Icon List
 
+- apps
 - back
 - bell
 - box
+- building
 - calculate-price
+- calculator
 - calendar
+- camera
 - cancel
 - cart
+- chart
+- chart-2
 - chat
-- check-circle
 - check
+- check-circle
 - chevron-down
 - chevron-left
 - chevron-right
 - chevron-up
 - chronometer
+- chronometer-2
+- clip
 - clock
+- clock-2
 - cloud
+- copyright
+- credit-card
 - dashboard
+- dashboard-2
 - diamond
+- dots
+- down
+- download
 - edit
+- edit-2
 - envelope
 - exclamation
 - eye-off
 - eye
 - facebook-circle
+- file
+- file-excel
+- file-pdf
 - file-record
 - files
+- filter
 - flag
 - folder
 - gasoline
@@ -67,16 +87,17 @@ function SomeComponent () {
 - hands-shake
 - happy
 - home
-- imac-envelope
 - imac
+- imac-envelope
 - image
+- index-finger
 - info
 - instagram-circle
 - journey
 - knobs
 - lab
-- left-right
 - left
+- left-right
 - log-out
 - map
 - maximize-1
@@ -84,15 +105,21 @@ function SomeComponent () {
 - maximize-3
 - menu
 - message
+- message-send
 - microphone
 - minus
+- money
+- money-2
 - mountain
+- move
 - operator
 - orden-check
 - orden-send
 - package-check
 - package-door
 - package-exclamation
+- package-schedule
+- package-send
 - package-weight-check
 - package
 - packages-transport
@@ -104,26 +131,32 @@ function SomeComponent () {
 - pills
 - pin
 - plane
+- plus
 - prize
 - promo
 - question
 - reload-time
 - reload
+- resize
 - right
 - sad
 - send
 - settings
 - shield
 - smartphone
+- sound
 - star
-- store-2
 - store
+- store-2
+- suitcase
 - sync
 - tag
 - trash
-- truck-gps
 - truck
+- truck-gps
 - ubication
+- up
+- upload
 - warehouse
 - weight
 - x

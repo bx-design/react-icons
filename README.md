@@ -68,6 +68,8 @@ function SomeComponent () {
 - edit
 - edit-2
 - envelope
+- envelope-back
+- envelope-edit
 - exclamation
 - eye-off
 - eye
@@ -106,6 +108,7 @@ function SomeComponent () {
 - menu
 - message
 - message-send
+- message-send-edit
 - microphone
 - minus
 - money
@@ -123,6 +126,7 @@ function SomeComponent () {
 - package-weight-check
 - package
 - packages-transport
+- padlock
 - pencil
 - person-circle
 - person-executive
@@ -157,6 +161,7 @@ function SomeComponent () {
 - ubication
 - up
 - upload
+- upload-2
 - warehouse
 - weight
 - x

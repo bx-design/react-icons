@@ -32,6 +32,7 @@ function SomeComponent () {
 ### Icon List
 
 - apps
+- add-people
 - back
 - bell
 - box
@@ -53,6 +54,7 @@ function SomeComponent () {
 - chevron-up
 - chronometer
 - chronometer-2
+- circle-plus
 - clip
 - clock
 - clock-2
@@ -71,14 +73,20 @@ function SomeComponent () {
 - envelope
 - envelope-back
 - envelope-edit
+- envelope-share
 - exclamation
 - eye-off
 - eye
 - facebook-circle
 - file
+- file-add
+- file-edit
 - file-excel
+- file-group-edit
 - file-pdf
 - file-record
+- file-reload
+- file-remove
 - files
 - filter
 - flag
@@ -108,6 +116,7 @@ function SomeComponent () {
 - maximize-3
 - menu
 - message
+- message-info
 - message-send
 - message-send-edit
 - microphone
@@ -116,6 +125,7 @@ function SomeComponent () {
 - money-2
 - mountain
 - move
+- network
 - operator
 - orden-check
 - orden-send
@@ -128,6 +138,7 @@ function SomeComponent () {
 - package
 - packages-transport
 - padlock
+- pay
 - pencil
 - pencil-2
 - person-circle
@@ -146,6 +157,7 @@ function SomeComponent () {
 - resize
 - right
 - sad
+- selection
 - send
 - settings
 - shield
@@ -157,6 +169,7 @@ function SomeComponent () {
 - suitcase
 - sync
 - tag
+- tip
 - trash
 - truck
 - truck-gps

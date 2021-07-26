@@ -90,6 +90,7 @@ function SomeComponent () {
 - files
 - filter
 - flag
+- floppy-disk
 - folder
 - gasoline
 - globe

@@ -15,7 +15,7 @@
     },
     "allowImportExportEverywhere": true
   },
-  "plugins": ["@typescript-eslint", "prettier", "import"],
+  "plugins": ["@typescript-eslint", "import"],
   "extends": [
     "eslint:recommended",
     "plugin:@typescript-eslint/recommended",
@@ -30,12 +30,8 @@
     }
   },
   "rules": {
-    "prettier/prettier": [
-      "error",
-      {
-        "jsxSingleQuote": true
-      }
-    ],
-    "no-console": "warn"
+    "no-console": "warn",
+    "no-redeclare": "off",
+    "@typescript-eslint/no-redeclare": ["off"]
   }
 }

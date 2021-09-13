@@ -3,6 +3,7 @@
 List of BX Icons with React.
 
 ## Installation (for standard modern project)
+
 `yarn add @bx-design/react-icons`
 or
 `npm install @bx-design/react-icons`
@@ -10,12 +11,12 @@ or
 ## Example usage
 
 ```jsx
-import BxIcons from '@bx-design/react-icons';
+import { BxAddPeople } from '@bx-design/react-icons'
 
-function SomeComponent () {
+function SomeComponent() {
   return (
     <div>
-      <BxIcons icon='back' color='red' size='30' />
+      <BxAddPeople color='red' size='30' />
     </div>
   )
 }
@@ -23,161 +24,162 @@ function SomeComponent () {
 
 ## Props
 
-| Prop | Type |  Default  | Notes |
-| ------------ | ------------ | ------------ | ------------ |
-| icon | string  | none | Icon list [here](https://github.com/bx-design/react-icons#icon-list "here")  |
-| size | string  - undefined  | undefined |   |
-| color | string - undefined  | undefined |  |
+| Prop  | Type                        | Default   | Notes |
+| ----- | --------------------------- | --------- | ----- |
+| size  | string - number - undefined | undefined |       |
+| color | string - undefined          | undefined |       |
+| title | string - undefined          | undefined |       |
 
 ### Icon List
 
-- apps
-- add-people
-- back
-- bell
-- box
-- building
-- calculate-price
-- calculator
-- calendar
-- camera
-- cancel
-- cart
-- chart
-- chart-2
-- chat
-- check
-- check-circle
-- chevron-down
-- chevron-left
-- chevron-right
-- chevron-up
-- chronometer
-- chronometer-2
-- circle-plus
-- clip
-- clock
-- clock-2
-- cloud
-- copyright
-- credit-card
-- dashboard
-- dashboard-2
-- diamond
-- dots
-- dots-vertical
-- down
-- download
-- edit
-- edit-2
-- envelope
-- envelope-back
-- envelope-edit
-- envelope-share
-- exclamation
-- eye-off
-- eye
-- facebook-circle
-- file
-- file-add
-- file-edit
-- file-excel
-- file-group-edit
-- file-pdf
-- file-record
-- file-reload
-- file-remove
-- files
-- filter
-- flag
-- folder
-- gasoline
-- globe
-- group
-- hand-clean
-- hands-shake
-- happy
-- home
-- imac
-- imac-envelope
-- image
-- index-finger
-- info
-- instagram-circle
-- journey
-- knobs
-- lab
-- left
-- left-right
-- log-out
-- map
-- maximize-1
-- maximize-2
-- maximize-3
-- menu
-- message
-- message-info
-- message-send
-- message-send-edit
-- microphone
-- minus
-- money
-- money-2
-- mountain
-- move
-- network
-- operator
-- orden-check
-- orden-send
-- package-check
-- package-door
-- package-exclamation
-- package-schedule
-- package-send
-- package-weight-check
-- package
-- packages-transport
-- padlock
-- pay
-- pencil
-- pencil-2
-- person-circle
-- person-executive
-- person
-- phone
-- pills
-- pin
-- plane
-- plus
-- prize
-- promo
-- question
-- reload-time
-- reload
-- resize
-- right
-- sad
-- selection
-- send
-- settings
-- shield
-- smartphone
-- sound
-- star
-- store
-- store-2
-- suitcase
-- sync
-- tag
-- tip
-- trash
-- truck
-- truck-gps
-- ubication
-- up
-- upload
-- upload-2
-- warehouse
-- weight
-- x
-- zoom
+- BxAddPeople
+- BxApps
+- BxBack
+- BxBell
+- BxBox
+- BxBuilding
+- BxCalculatePrice
+- BxCalculator
+- BxCalendar
+- BxCamera
+- BxCancel
+- BxCart
+- BxChart2
+- BxChart
+- BxChat
+- BxCheckCircle
+- BxCheck
+- BxChevronDown
+- BxChevronLeft
+- BxChevronRight
+- BxChevronUp
+- BxChronometer2
+- BxChronometer
+- BxCirclePlus
+- BxClip
+- BxClock2
+- BxClock
+- BxCloud
+- BxCopyright
+- BxCreditCard
+- BxDashboard2
+- BxDashboard
+- BxDiamond
+- BxDotsVertical
+- BxDots
+- BxDown
+- BxDownload
+- BxEdit2
+- BxEdit
+- BxEnvelopeBack
+- BxEnvelopeEdit
+- BxEnvelopeShare
+- BxEnvelope
+- BxExclamation
+- BxEyeOff
+- BxEye
+- BxFacebookCircle
+- BxFileAdd
+- BxFileEdit
+- BxFileExcel
+- BxFileGroupEdit
+- BxFilePdf
+- BxFileRecord
+- BxFileReload
+- BxFileRemove
+- BxFile
+- BxFiles
+- BxFilter
+- BxFlag
+- BxFloppyDisk
+- BxFolder
+- BxGasoline
+- BxGlobe
+- BxGroup
+- BxHandClean
+- BxHandsShake
+- BxHappy
+- BxHome
+- BxImacEnvelope
+- BxImac
+- BxImage
+- BxIndexFinger
+- BxInfo
+- BxInstagramCircle
+- BxJourney
+- BxKnobs
+- BxLab
+- BxLeftRight
+- BxLeft
+- BxLogOut
+- BxMap
+- BxMaximize1
+- BxMaximize2
+- BxMaximize3
+- BxMenu
+- BxMessageInfo
+- BxMessageSeen
+- BxMessageSendEdit
+- BxMessage
+- BxMicrophone
+- BxMinus
+- BxMoney2
+- BxMoney
+- BxMountain
+- BxMove
+- BxNetwork
+- BxOperator
+- BxOrdenCheck
+- BxOrdenSend
+- BxPackageCheck
+- BxPackageDoor
+- BxPackageExclamation
+- BxPackageSchedule
+- BxPackageSend
+- BxPackageWeightCheck
+- BxPackage
+- BxPackagesTransport
+- BxPadlock
+- BxPay
+- BxPencil2
+- BxPencil
+- BxPersonCircle
+- BxPersonExecutive
+- BxPerson
+- BxPhone
+- BxPills
+- BxPin
+- BxPlane
+- BxPlus
+- BxPrize
+- BxPromo
+- BxQuestion
+- BxReloadTime
+- BxReload
+- BxResize
+- BxRight
+- BxSad
+- BxSelection
+- BxSend
+- BxSettings
+- BxShield
+- BxSmartphone
+- BxSound
+- BxStar
+- BxStore2
+- BxStore
+- BxSuitcase
+- BxSync
+- BxTag
+- BxTip
+- BxTrash
+- BxTruckGps
+- BxTruck
+- BxUbication
+- BxUp
+- BxUpload2
+- BxUpload
+- BxWarehouse
+- BxWeight
+- BxX
+- BxZoom

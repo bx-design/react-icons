@@ -20,6 +20,8 @@ async function getIcons() {
       const removeSvg = svgIcon
         .replace('<svg fill="none" viewBox="0 0 24 24">', '')
         .replace('</svg>', '')
+        .replace('clip-rule', 'clipRule')
+        .replace('fill-rule', 'fillRule')
       const templated = TEMPLATE(pascalName, removeSvg)
       await fs.writeFile(
         path.join(process.cwd(), 'src', 'icon-components', `${fileName}.tsx`),

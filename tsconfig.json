@@ -17,16 +17,11 @@
     "forceConsistentCasingInFileNames": true,
     "allowSyntheticDefaultImports": true,
     "baseUrl": ".",
+    "rootDir": "src",
     "outDir": "./dist",
-    "types": ["node", "jest"],
-    "typeRoots": ["./types", "./node_modules/@types"],
-    "jsx": "react-jsx"
+    "typeRoots": ["./src/types", "./node_modules/@types"],
+    "jsx": "react"
   },
-  "include": ["src/**/*.ts", "src/**/*.tsx"],
-  "exclude": [
-    "node_modules",
-    "src/__tests__",
-    "src/icons/bx-icons/src/__tests__",
-    "dist"
-  ]
+  "include": ["src"],
+  "exclude": ["node_modules", "dist"]
 }

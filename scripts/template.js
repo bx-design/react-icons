@@ -1,5 +1,5 @@
 const TEMPLATE = (componentName, content) => `
-  import { forwardRef } from 'react'
+  import React, { forwardRef } from 'react'
 
   import { IconBaseProps } from '../types'
   import { __DEV__ } from '../is-dev'
